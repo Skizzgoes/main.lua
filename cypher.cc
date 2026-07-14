@@ -3945,7 +3945,7 @@ local Library do
     end
 end
 
---[[local Window = Library:Window({Name = "Cypher.cc"})
+local Window = Library:Window({Name = "Cypher.cc"})
 
 Window:Category("Main")
 local CombatPage = Window:Page({Name = "Page1", Icon = "136879043989014"})
@@ -3992,7 +3992,7 @@ for Index = 1, 2 do
 end
 
 Library:Notification("Notification without icon", 5, nil)
-Library:Notification("Notification with icon lol noob", 5, "94627324690861")]]
+Library:Notification("Notification with icon lol noob", 5, "94627324690861")
 
 
 getgenv().Library = Library
